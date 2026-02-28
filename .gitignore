@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Large video assets (to be handled via LFS or external hosting)
+/public/videos/*.mp4
