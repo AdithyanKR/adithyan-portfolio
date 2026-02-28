@@ -14,11 +14,11 @@ export default function Projects() {
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
 
     const videoFiles = [
-        "/videos/0128.mp4",
-        "/videos/0225 (1)(1)_1.mp4",
-        "/videos/bineesh 2nd_1.mp4",
-        "/videos/dr bb.mp4",
-        "/videos/jinbeesh.mp4",
+        "https://res.cloudinary.com/daw6tfzlv/video/upload/portfolio/0128.mp4",
+        "https://res.cloudinary.com/daw6tfzlv/video/upload/portfolio/0225%20(1)(1)_1.mp4",
+        "https://res.cloudinary.com/daw6tfzlv/video/upload/portfolio/bineesh%202nd_1.mp4",
+        "https://res.cloudinary.com/daw6tfzlv/video/upload/portfolio/dr%20bb.mp4",
+        "https://res.cloudinary.com/daw6tfzlv/video/upload/portfolio/jinbeesh.mp4",
     ];
 
     const projects = Array.from({ length: 10 }).map((_, i) => ({
