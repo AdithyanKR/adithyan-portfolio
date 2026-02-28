@@ -14,11 +14,7 @@ export default function Projects() {
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
 
     const videoFiles = [
-        "https://res.cloudinary.com/daw6tfzlv/video/upload/portfolio/0128.mp4",
-        "https://res.cloudinary.com/daw6tfzlv/video/upload/portfolio/0225%20(1)(1)_1.mp4",
-        "https://res.cloudinary.com/daw6tfzlv/video/upload/portfolio/bineesh%202nd_1.mp4",
-        "https://res.cloudinary.com/daw6tfzlv/video/upload/portfolio/dr%20bb.mp4",
-        "https://res.cloudinary.com/daw6tfzlv/video/upload/portfolio/jinbeesh.mp4",
+        "https://res.cloudinary.com/daw6tfzlv/video/upload/v1772306564/0128_g17tue.mp4",
     ];
 
     const projects = Array.from({ length: 10 }).map((_, i) => ({
